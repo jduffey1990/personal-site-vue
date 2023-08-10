@@ -1,0 +1,97 @@
+/*Overall style for the page*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: #F4F6D6;
+    text-align: center;
+}
+
+/*the header and footer are going to be stylized the same for now, so I will call them both for this next section*/
+.header,
+.footer {
+    background-color: black;
+    color: lightgray;
+    padding: 20px 0;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+/*I want some space between the header and the picture*/
+.header {
+    margin-bottom: 40px;
+    height: 300px;
+}
+
+/*making a normal width here and centering the photos*/
+img,
+iframe {
+    width: 400px;
+    text-align: center;
+}
+
+/*the sections will be stylized the same*/
+.intro,
+.about,
+.contact {
+    padding: 10px 300px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 32;
+}
+
+h3 {
+    font-size: 28;
+}
+
+/*I wanted the buttons to really stand out*/
+.btn {
+    padding: 1px 5px;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 3px;
+    background-color: maroon;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Add a consistent spacing for the entire nav and center it */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333; /* Dark background for contrast */
+    padding: 15px 0;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Style individual links */
+nav a {
+    margin: 0 15px;
+    font-weight: bold; /* Bold font for emphasis */
+    color: #F4F6D6; /* Light color for contrast against dark bg */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* A little padding for hover effect */
+    border-radius: 4px; /* Slight curve for the links */
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect for the links */
+nav a:hover {
+    background-color: #F4F6D6; /* Light background on hover */
+    color: #333; /* Dark text on hover */
+}
+
+/* Active link indicator. Adjust this if you're using Vue Router's active class */
+nav a.active {
+    border-bottom: 3px solid maroon; /* Indicate the active page with a border */
+}
