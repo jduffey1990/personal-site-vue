@@ -17,9 +17,10 @@ For new developers, choosing between Vue and React might be a challenging decisi
 Experimenting with Vue can demonstrate adaptability and a willingness to learn and utilize the best tool for a specific job to potential employers.
 
 ## My Webpages
-
-* [personal website](http://jduffey1990.github.io/portfolio-website)
+* [Current Vue version]()
+* [Previous HTML Version](http://jduffey1990.github.io/portfolio-website)
 * [LinkedIn](https://www.linkedin.com/in/jordan-duffey-39a76998/)
+  
 
 ## Project setup
 
